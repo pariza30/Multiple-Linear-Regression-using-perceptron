@@ -53,7 +53,7 @@ error = y - y_{pred}
 
 ### Weight Update Rule (Perceptron Style)
 \[
-w = w + \eta \cdot error \cdot x
+w = w + lr.error.x
 \]
 
 This is performed using **Stochastic Gradient Descent**, meaning weights are updated after every training sample.
